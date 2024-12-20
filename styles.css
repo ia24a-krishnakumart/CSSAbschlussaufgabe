@@ -1,0 +1,260 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    width: auto;
+    height: 100px;
+    color: white;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.HeaderLogo{
+    display: flex;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: #F9FAF8 ;
+    padding: 30px;
+    padding-left: 175px;
+    height: 175px;
+
+}
+
+
+.HeaderLinks{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    padding-right: 125px;
+    padding-top: 25px;
+
+
+}
+.HeaderLinks a{
+    font-family: "Segoe UI";
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.firstbody{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    font-family: "Segoe UI";
+    height: 300px;
+
+
+}
+
+.firstall{
+    padding-left: 100px;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.SignUpButton{
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 10px;
+    color:white;
+
+}
+
+.firstContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+
+.middlepart{
+    flex-direction: column;
+    padding-bottom: 200px;
+
+
+}
+
+
+.images{
+    justify-content: center;
+    gap: 50px;
+    Height:100px;
+    width: auto;
+    padding-top: 25px;
+
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image_build{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.Thirdpart{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-family: "";
+    flex-direction: column;
+}
+
+
+.Quote{
+
+    font-size: 36px;
+    font-family: "Segoe UI";
+    color: #1F2937;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.autor{
+    padding: 20px;
+    padding-left: 750px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+img {
+    height: 140px;
+    width: auto;
+}
+
+
+.image1{
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+    height: 500px;
+
+
+}
+.image1 img{
+    height: 60%;
+    width: auto;
+    max-width: 500px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI";
+}
+
+.text{
+    font-family: "Segoe UI";
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+button{
+    width: 80px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.fourthpart {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    background-color: #4F7DFD;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 900px;
+    font-family: "Segoe UI";
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+.fourthpart .flexcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.fourthpart .headerfourth {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.fourthpart .textfourth {
+    font-size: 14px;
+    margin: 0px;
+    flex: 1;
+    text-align: center;
+
+}
+
+.fourthpart .fourthtext{
+    padding-right: 150px;
+}
+
+.fourthpart .buttonfourth {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: auto;
+}
+
+.fifthpart{
+    display: flex;
+    height: 75px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+
+
+
+
+
